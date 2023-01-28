@@ -59,7 +59,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-28 10:29:29.688913",
+ "modified": "2023-01-28 10:46:14.564716",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
@@ -81,5 +81,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "article_name"
 }
