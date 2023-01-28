@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-28 11:34:12.932471",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "author_first_name",
+  "author_last_name",
+  "mobile"
+ ],
+ "fields": [
+  {
+   "fieldname": "author_first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Author First Name"
+  },
+  {
+   "fieldname": "author_last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Author Last Name"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mobile"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-28 11:38:39.537092",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Article Author",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

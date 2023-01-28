@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:author_first_name",
+ "creation": "2023-01-28 12:16:43.309306",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "author_first_name",
+  "author_last_name",
+  "author_mobile",
+  "author_gender"
+ ],
+ "fields": [
+  {
+   "fieldname": "author_first_name",
+   "fieldtype": "Data",
+   "label": "Author First Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "author_last_name",
+   "fieldtype": "Data",
+   "label": "Author Last Name"
+  },
+  {
+   "fieldname": "author_mobile",
+   "fieldtype": "Data",
+   "label": "Author Mobile"
+  },
+  {
+   "fieldname": "author_gender",
+   "fieldtype": "Select",
+   "label": "Author Gender",
+   "options": "Male\nFemale"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-01-28 12:17:17.440652",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Author",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "author_first_name"
+}

@@ -10,11 +10,12 @@
  "field_order": [
   "article_name",
   "image",
-  "author",
   "description",
   "isbn",
   "status",
-  "publisher"
+  "publisher",
+  "article_author",
+  "author"
  ],
  "fields": [
   {
@@ -32,8 +33,9 @@
   },
   {
    "fieldname": "author",
-   "fieldtype": "Data",
-   "label": "Author"
+   "fieldtype": "Link",
+   "label": "Author",
+   "options": "Author"
   },
   {
    "fieldname": "description",
@@ -55,11 +57,18 @@
    "fieldname": "publisher",
    "fieldtype": "Data",
    "label": "Publisher"
+  },
+  {
+   "fieldname": "article_author",
+   "fieldtype": "Table",
+   "label": "Article Author",
+   "options": "Article Author"
   }
  ],
+ "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-28 10:46:14.564716",
+ "modified": "2023-01-28 12:19:48.420424",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
@@ -77,6 +86,16 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Blogger",
+   "share": 1
   }
  ],
  "sort_field": "modified",
